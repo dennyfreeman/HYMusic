@@ -1,0 +1,11 @@
+<view class="" hover-class="none" hover-stop-propagation="false">
+    this is a video
+</view>
+
+<!-- 使用block遍历将数据展示出来 -->
+<!-- 再wx:key这里面中，会自动获取到item.id -->
+<block wx:for="{{topMVs}}" wx:key="id">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        {{item.name}}
+    </view>
+</block>
