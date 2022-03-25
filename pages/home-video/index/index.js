@@ -19,7 +19,8 @@ Page({
 		getTopMV(0, 10).then( res => {
 			this.setData({ topMVs: res.data.data})
 		})
-
+		
+		console.log("2");
 		// 简单网络请求例子：
 		// //用临时的_this来解决一下回调函数的this问题，疑惑？？？？
 		// const _this = this
